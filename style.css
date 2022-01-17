@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding: 250px 0;
+}
+.elements {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(175, 209, 224);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  /* padding-right: 50px; */
+}
+.special {
+  background-color: rgb(58, 134, 167);
+}
+.operator {
+  background-color: rgb(57, 147, 185);
+}
+
+.equal {
+  background-color: rgb(21, 97, 129);
+  grid-column: -4 / -1;
+}
+
+section {
+  width: 300px;
+  padding: 10px;
+  border: 2px black solid;
+}
+
+.input-box {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: rgb(73, 73, 185);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.answer-box {
+  height: 38.75px;
+  padding: 10px 0 0 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
